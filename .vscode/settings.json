@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": [
+        "./Python/Metodos",
+        "./Python/Algoritmos",
+        "./JsonTiempoEjecucionAlgoritmos",
+        "./JsonResultadosAlgoritmos",
+        "./cargarValorVariablePyJs",
+        "./Json/GenerarResultadosMetodos",
+        "./Json/GenerarTiempoEjecucionMetodos",
+        "./MetodosPython/Algoritmos",
+        "./CargarMatrices"
+    ]
+}
