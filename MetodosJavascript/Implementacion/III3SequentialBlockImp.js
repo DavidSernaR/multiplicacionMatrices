@@ -15,7 +15,7 @@ import { cargar_matriz } from "../../CargarMatrices/CargarMatriz.js";
 const rutaPersistencia = 'Json/PersistenciaDatos';
 
 // Bucle para iterar sobre tamaños de matriz, de 16x16 a 2048x2048
-for (let i = 1; i <= 3; i++) {  // Cambiado a 8 iteraciones
+for (let i = 1; i <= 8; i++) {  // Cambiado a 8 iteraciones
     let tamano = 2 ** (i + 3); // Tamaños: 16, 32, 64, ..., 2048
     let rutaCarpeta = `${rutaPersistencia}/Matrices${tamano}x${tamano}`;
 

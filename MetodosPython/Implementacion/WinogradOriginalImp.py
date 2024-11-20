@@ -25,7 +25,7 @@ from AlmacenarResultados import almacenar_resultados_json
 ruta_persistencia = 'C:/MultiplicacionMatricesGrandesProyectoFinal/Json/PersistenciaDatos'
 
 # Bucle para cargar matrices y realizar la multiplicación
-for i in range(1, 4):
+for i in range(1, 9):
     tamano = 2 ** (i + 3)  # Tamaños: 16, 32 64, ...
     ruta_carpeta = f"{ruta_persistencia}/Matrices{tamano}x{tamano}"
 

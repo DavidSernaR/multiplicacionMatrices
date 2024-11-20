@@ -20,7 +20,7 @@ const rutaPersistencia = 'Json/PersistenciaDatos';
 const NombreAlgoritmo = "WinogradOriginal";
 
 // Bucle para iterar sobre los tamaños de las matrices (de 16x16 a 64x64)
-for (let i = 1; i <= 3; i++) { // Cambiado a iterar 3 veces, como en el código Python
+for (let i = 1; i <= 8; i++) { // Cambiado a iterar 8 veces, como en el código Python
     let tamano = 2 ** (i + 3); // Tamaños: 16, 32, 64
     let rutaCarpeta = `${rutaPersistencia}/Matrices${tamano}x${tamano}`;
 
